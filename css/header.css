@@ -1,0 +1,9 @@
+.header {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 20px black;
+    text-transform: uppercase;
+    background-color: #9c9c9c;
+    font-family: 'Domine', serif;
+    margin-top: 0px;
+}

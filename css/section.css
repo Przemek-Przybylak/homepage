@@ -1,0 +1,27 @@
+.section__header {
+    margin: 0 auto;
+}
+
+.section__picture {
+    width: 15vw;
+    border-radius: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+.pictureNone {
+    display: none;
+}
+
+.section__button {
+    display: block;
+    margin: 20px auto;
+    color: white;
+    text-shadow: 1px 1px 7px black;
+    background-color: #9c9c9c;
+}
+
+.section__article {
+    margin: 0 auto;
+    max-width: 800px;
+}

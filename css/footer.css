@@ -1,0 +1,11 @@
+.footer {
+    border-top: #9c9c9c 2px solid;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1;
+    background-color: white;
+}
+
+.footer__description {
+    font-size: 10px;
+}
