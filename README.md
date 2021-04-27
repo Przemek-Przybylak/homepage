@@ -1,15 +1,15 @@
-# Hompage
+# Homepage
 
-## Hompage link
-If You want to see my hompage please click link: ![Hompage](https://przemek-przybylak.github.io/hompage/)
+## Homepage link
+If You want to see my hompage please click link: (https://przemek-przybylak.github.io/hompage/)
 
 ## Welcome
-I'm glad you decided to watch my hompage.   
+I'm glad you decided to watch my homepage.   
 Let me explain the meaning of the project and tools I used to create it.
 
-## Hompage - what's this?
-Hompage is my first website. I code this page in **YouCode** course *" Frontend developer od podstaw "*.  
-Hompage tells about my:
+## Homepage - what's this?
+Homepage is my first website. I code this page in **YouCode** course *" Frontend developer od podstaw "*.  
+Homepage tells about my:
 - expierence 
 - motivation 
 - goals 
@@ -20,7 +20,7 @@ Hompage tells about my:
 Project is divided into 3 main parts:
 1. Index.html - this file contains the document structure and its content.
 2. css - this folder is the space for page styles. These styles make up the hompage layout. 
-3. js - this folder is the space for javascript. the Javascript is responsible for the functionality of the website.
+3. js - this folder is the space for javascript. the javascript is responsible for the functionality of the website.
 
 ## Technology
 
