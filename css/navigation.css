@@ -1,7 +1,13 @@
 .navigation {
     margin: 0 auto;
     text-align: center;
-    max-width: 60%;
+    max-width: 80%;
+}
+
+@media (max-width: 760px) {
+    .navigation {
+        display: none;
+    }
 }
 
 .navigation__tittle {
@@ -12,16 +18,12 @@
 }
 
 .navigation__inscription:hover {
-    background-color: #9c9c9c;
-    color: white;
-    box-shadow: 1px 1px 10px 3px black;
-    border-bottom: none;
-    border-radius: 5%/80%;
+    color: rgb(102, 102, 102);
 }
 
 .navigation__item {
     list-style-type: none;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .navigation__list {
