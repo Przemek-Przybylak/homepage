@@ -1,7 +1,7 @@
 # Hompage
 
 ## Hompage link
-If You want to see my hompage please click link: ![Hompage](https://przemek-przybylak.github.io/hompage/)
+If You want to see my hompage please click link: (https://przemek-przybylak.github.io/hompage/)
 
 ## Welcome
 I'm glad you decided to watch my hompage.   
@@ -20,7 +20,7 @@ Hompage tells about my:
 Project is divided into 3 main parts:
 1. Index.html - this file contains the document structure and its content.
 2. css - this folder is the space for page styles. These styles make up the hompage layout. 
-3. js - this folder is the space for javascript. the Javascript is responsible for the functionality of the website.
+3. js - this folder is the space for javascript. the javascript is responsible for the functionality of the website.
 
 ## Technology
 
