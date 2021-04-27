@@ -1,4 +1,4 @@
-# Hompage
+# Homepage
 
 ## Homepage link
 If You want to see my hompage please click link: (https://przemek-przybylak.github.io/hompage/)
