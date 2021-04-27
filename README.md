@@ -1,15 +1,15 @@
 # Hompage
 
-## Hompage link
+## Homepage link
 If You want to see my hompage please click link: (https://przemek-przybylak.github.io/hompage/)
 
 ## Welcome
-I'm glad you decided to watch my hompage.   
+I'm glad you decided to watch my homepage.   
 Let me explain the meaning of the project and tools I used to create it.
 
-## Hompage - what's this?
-Hompage is my first website. I code this page in **YouCode** course *" Frontend developer od podstaw "*.  
-Hompage tells about my:
+## Homepage - what's this?
+Homepage is my first website. I code this page in **YouCode** course *" Frontend developer od podstaw "*.  
+Homepage tells about my:
 - expierence 
 - motivation 
 - goals 
