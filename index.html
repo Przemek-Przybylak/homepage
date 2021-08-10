@@ -24,6 +24,7 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" />
 </head>
+
 <body class="container">
     <header class="header">
         <h1>Przemek frontend developer</h1>
@@ -47,69 +48,110 @@
             </li>
         </ul>
     </nav>
-    <section class="section__header">
-        <img class="section__picture js-section__picture" src="https://i.postimg.cc/BvkBGhqx/moje-zdjecie.jpg"
-            alt="Moje zdjęcie">
-        <button class="section__button js-section__button">Usuń moje zdjęcie</button>
-    </section>
     <main class="main">
         <section class="section__aboutMe">
+            <div class="section__headerPicture section__headerPicture--aboutMe">
+            </div>
             <article class="section__article">
                 <h2 class="main__header" id="O-mnie">O mnie</h2>
-                Nazywam się Przemysław Przybylak budową stron interesuję się od lutego 2021 roku.<br>
-                Już w szkole podstawowej interesowałem się programowaniem, nawet chciałem iść do technikum
-                inforamtycznego, jednak ostatecznie zostałem elektrykiem.
-                Odkąd rozpocząłem pracę regularnie myślałem jakby to było, gdybym jednak został programistą
-                i gdybym jednak zawodowo zajmował się czymś ciekawszym niż ukladanie przewodów w ścianie. Praca jest
-                naprawdę fajna, ale nie lubię monotonii, gdy w elektyce się już nauczysz podstawowycb czynności
-                niewiele
-                jest rzeczy, które potrafią człowieka zaskoczyć, czy zmusić do myślenia.
-                Dlatego postanowiłem coś zmienić i obrałem nowy cel, że w 2021 roku NAUCZĘ SIĘ PROGRAMOWAĆ! <br>
-                Cel musi być mierzalny, więc także wyznaczyłem sobie cel, że do końca 2021 roku będę pracował jako
-                frontend developer.
+                Nazywam się Przemysław Przybylak budową stron interesuję się od 2021 roku.<br>
+                Obecnie moim głównym celem jest zostanie frontend developerem. Chcę jak najszybciej zostać
+                profesjonalistą i rozpocząć swoją przygodę w branży IT!
             </article>
         </section>
         <section class="section__article">
-            <h2 class="main__header" id="Doświadczenie">Doświadczenie</h2>
+            <div class="section__headerPicture section__headerPicture--skills">
+            </div>
+            <h2 class="main__header" id="Doświadczenie">umiejętności</h2>
             <ul>
-                <li>Kurs CSS & HTML od podstaw Youcode. - 01-03. 2021r</li>
-                <li>Kurs frontend developer od podstaw Youcode - <strong>03.2021r - obecnie</strong></li>
-                <li>Wiem, że Moje doświadcznie nie jest duże, ale naprawdę lubię programować i chcę już to robić zawodowo i być PROGRAMADOREM </li>
+                <li class="section__li">HTML</li>
+                <li class="section__li">CSS</li>
+                <li class="section__li">Javascript</li>
+                <li class="section__li">React</li>
+                <li class="section__li">Node.js</li>
+                <li class="section__li">Webpack</li>
+                <li class="section__li">Git</li>
+                <li class="section__li">Redux ( w trakcie )</li>
+                <li class="section__li">Saga ( w trakcie )</li>
             </ul>
         </section>
         <section class="section__article">
-            <h2 class="main__header" id="Życie-prywatne">Życie prywatne</h2>
+            <div class="section__headerPicture section__headerPicture--family">
+            </div>
+            <h2 class="main__header" id="Życie-prywatne">Rodzina</h2>
             <p>
                 Prywatnie jestem ojcem 2 dzieci. Są to dziewczynki pierwsza ma na imię <em>Ola</em>, a druga
-                <em>Natalia</em>. Niedługo nasza rodzina powiększy się o kolejnego członka rodziny, a mianowicie o Magdalenę.                
+                <em>Natalia</em>. Niedługo nasza rodzina powiększy się o kolejnego członka rodziny, a mianowicie o
+                Magdalenę.
             </p>
+            <article class="section__pictures">
+                <img class="section__pictureItem" src="https://i.postimg.cc/FFDLWMn7/Rodzina-1.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/pXrngsgk/Rodzina-2.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/bJRtjWyV/Rodzina-3.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/cL8tJr1n/Rodzina-6.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/tJSns6Vh/Rodzina-5.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/66Hv56sn/Rodzina-10.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/MHrMs50d/Rodzina-11.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/4yNh4Pnf/Rodzina-8.jpg"
+                    alt="Zdjęcie rodzinne">
+            </article>
         </section>
         <section class="section__article">
-            <h2 class="main__header" id="Hobby">Hobby</h2>
+            <div class="section__headerPicture section__headerPicture--Tour">
+            </div>
+            <h2 class="main__header" id="Hobby">Wycieczki</h2>
             <p>
-                Moim największym Hobby jest piłka nożna. Mogę godzianmi rozmawiać o jednym legendarnym
-                meczu.<br>
+                Kocham podróżować, oraz przebywać na łonie natury. Nieważne czy Tatry, czy pobliski las, przyroda od
+                zawsze była dla mnie źródłem potężnego spokoju wewnętrznego, oraz natchnienia.
             </p>
-            <p>
-                Drugim moim hobby, chociaż nie wiem czy można to nazwac hobby, jest zwiększanie swojej
-                świdomości
-                (<i>Mindulness</i>), za przełomową w tej dziedzinie uważam książkę Eckharta Tolle pt <i>"Potega
-                    terażniejszości"</i>.</p>
-            <p>
-                Ponadto interesuję się rozwojem osobistym, zafascynowało mnie, że można zupełnie zmienić swój
-                program
-                poprzez zmianę przekonań, naprawdę mega sprawa. W tej dziedzinie moim największym autorytetem
-                jest
-                Mateusz Grzesiak. </p>
-            <p>
-                Kocham także podróżować, oczywiście najlepiej w piękne miejsca, ale wystarczy mi tez jesioro w
-                środku
-                lasu i piekny słoczny dzień, aby zapomnieć o całym świecie.
-            </p>
+            <article class="section__pictures">
+                <img class="section__pictureItem" src="https://i.postimg.cc/TY4rdVLr/Wycieczki-11.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/15tG1Ctm/Wycieczki-13.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/bvXkbqRr/Wycieczki-15.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/fW691w6K/Wycieczki-14.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/XJ45Hxm0/Wyciceczki-1.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/tJrFVPrG/Wycieczki-10.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/vmW9tCPz/Wycieczki-5.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/dVZGLhrg/Wycieczki.jpg"
+                    alt="Zdjęcie rodzinne">
+            </article>
         </section>
-        <section class="section__pictureLake">
-            <img class="main__picture" src="https://www.traseo.pl/media/photo/18/18234/topbig.jpg"
-                alt="Zalew Guźnia pod Łowiczem">
+        <section class="section__article">
+            <div class="section__headerPicture section__headerPicture--alpin">
+            </div>
+            <h2 class="main__header" id="Hobby">Alpinistyka</h2>
+            <p>
+                Skoro kocham góry, to dlaczego nie zająć się alpinistyką przemysłową?</br>
+                Niedawno zdobyłem certyfikat IRATA level 1, dzięki czemu mogę wykonywać pracę w dostępie linowym.
+            </p>
+            <article class="section__pictures section__pictures--alpin">
+                <img class="section__pictureItem" src="https://i.postimg.cc/QxSRXk7N/alpinistyka-1.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/ZY8GQhKd/Alpinistyka-3.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/vZBCDg7r/Alpinistyka-7.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/90hvfL10/Alpinistyka-4.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/pTNS0swC/Alpinistyka-5.jpg"
+                    alt="Zdjęcie rodzinne">
+                <img class="section__pictureItem" src="https://i.postimg.cc/RFcD2c9B/Alpinistyka-6.jpg"
+                    alt="Zdjęcie rodzinne">
+            </article>
         </section>
         <table class="table" id="Ulubieni-wykonawcy">
             <caption class="table__caption">Wykonawcy EDM, których lubię słuchać najbardziej<br>( dodaje tylko
@@ -208,12 +250,11 @@
         <button class="main__button js-main__button ">Zmień kolor tła </button>
     </main>
     <footer class="footer">
-        <p>Strona przygotowana na potrzeby kursu <a href="https://www.youcode.pl" title="Strona Youcode.pl"
-                target="_blank">Youcode </a><a class="footer__description">( Otwórz stronę Youcode
-                w nowej karcie )</a>, jeśli masz jakieś pytania napisz mail <a
+        <p>Strona przygotowana przez Przemysława Przybylaka, jeśli masz jakieś pytania napisz mail <a
                 href="mailto:przemyslaw.przybylak2@gmail.com"
                 title="kliknij, żeby napisać">przemyslaw.przybylak2@gmail.com</a></p>
 
     </footer>
 </body>
+
 </html>
