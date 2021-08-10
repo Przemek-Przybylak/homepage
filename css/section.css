@@ -65,8 +65,20 @@
     cursor: pointer;
 }
 
+@media (max-width:767px){
+    .section__pictures{
+        grid-template-columns: auto;
+    }
+}
+
 .section__pictures--alpin {
     grid-template-columns: repeat(3, 150px);
+}
+
+@media (max-width:767px){
+    .section__pictures--alpin{
+        grid-template-columns: auto;
+    }
 }
 
 .section__pictureItem {
